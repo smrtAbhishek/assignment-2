@@ -1,0 +1,128 @@
+/* This is the stylesheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+}
+header{
+    height: 110px;
+    background-color: #393845;
+}
+.imglogo{
+    height: 100px;
+    width: 10%;
+    margin-left: 5%;
+    float: left;
+    }
+.imagelogo{
+    height: 100px;
+    width: 100%;
+}
+#textlogo{
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    color: wheat;
+    margin-top: 20px;
+    margin-right: 35%;
+}
+#mybody{
+    background-color: rgb(59, 89, 152);
+}
+body{
+    margin: 20px;
+    padding: 0;
+    
+}
+
+.myclass{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.menu{
+    border: 2px solid #393845;
+    height: 40px;
+    padding-top: 7px;
+}
+.menubar li{
+    padding:2px;
+    border-radius: 5px;
+    border: 1px solid #393845;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 4%;
+    width: 120px;
+    text-align: center;
+}
+.menubar li a{
+    color: darkblue;
+}
+.menubar li:hover,.menubar li a:hover{
+    background-color: #393845;
+    color: wheat;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.boxspan{
+    background-color: rgb(92, 32, 32);
+    color: wheat;
+    display: block;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 16px 0px 20px 0px;
+}
+.custom-btn{
+    border: none;
+    box-shadow: none;
+    background: #444;
+    color: white;
+    padding: 10px;
+    line-height: 1em;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.custom-btn:hover{
+    background: black;
+}
+
+.span-btn{
+    border: none;
+    box-shadow: none;
+    background: darkslateblue;
+    color: white;
+    padding: 5px;
+    line-height: 1em;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.span-btn:hover{
+    cursor: pointer;
+    background: darkviolet;
+}
+
+.form-btn{
+    border: none;
+    box-shadow: none;
+    background: green;
+    color: white;
+    padding: 8px;
+    line-height: 1em;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.form-btn:hover{
+    cursor: pointer;
+    background: greenyellow;
+}
