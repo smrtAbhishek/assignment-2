@@ -30,7 +30,7 @@ header{
     margin-right: 35%;
 }
 #mybody{
-    background-color: rgb(59, 89, 152);
+    background-color: rgb(199, 206, 219);
 }
 body{
     margin: 20px;
@@ -98,7 +98,7 @@ body{
 .span-btn{
     border: none;
     box-shadow: none;
-    background: darkslateblue;
+    background: rgb(181, 176, 226);
     color: white;
     padding: 5px;
     line-height: 1em;
